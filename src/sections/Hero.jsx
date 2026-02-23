@@ -12,7 +12,8 @@ const Hero = () => {
       }}
     >
       {/* Overlay */}
-      //<div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
+          
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
         <h2 className="text-3xl md:text-5xl font-bold max-w-xl">
           The Heart of Nigerian Home Cooking
