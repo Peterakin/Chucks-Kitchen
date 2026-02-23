@@ -37,8 +37,8 @@ const SignUp = () => {
           <input type="checkbox" className="mt-1" />
           <p>
             I agree to the{" "}
-            <span className="text-primary">Terms & Conditions</span> and{" "}
-            <span className="text-primary">Privacy Policy</span>
+            <span className="text-blue-500">Terms & Conditions</span> and{" "}
+            <span className="text-blue-500">Privacy Policy</span>
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const SignUp = () => {
 
         <p className="mt-6 text-center text-sm">
           Already have an account?{" "}
-          <a href="/signin" className="text-primary hover:underline">
+          <a href="/signin" className="text-blue-500 hover:underline">
             Sign In
           </a>
         </p>

@@ -25,7 +25,7 @@ const SignIn = () => {
         />
 
         <div className="text-right mb-6">
-          <a href="#" className="text-sm text-primary hover:underline">
+          <a href="#" className="text-sm text-blue-500 hover:underline">
             Forgot Password?
           </a>
         </div>
@@ -48,7 +48,7 @@ const SignIn = () => {
 
         <p className="mt-6 text-center text-sm">
           Don’t have an account?{" "}
-          <a href="/signup" className="text-primary hover:underline">
+          <a href="/signup" className="text-blue-500 hover:underline">
             Create an account
           </a>
         </p>
