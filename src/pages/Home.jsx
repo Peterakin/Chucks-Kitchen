@@ -5,6 +5,7 @@ import SearchBar from "../sections/SearchBar";
 import Categories from "../sections/Categories";
 import PromoBanner from "../sections/PromoBanner";
 import Specials from "../sections/Specials";
+import ScrollToTopButton from "../components/ui/ScrollToTopButton";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Specials />
       <PromoBanner />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

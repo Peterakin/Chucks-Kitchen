@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,12 +11,21 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-20 text-gray-600">
-            <a href="#" className="text-primary font-medium">
+            <Link
+              className="text-primary font-medium hover:text-orange-600"
+              to="/"
+            >
               Home
-            </a>
-            <a href="#">Explore</a>
-            <a href="#">My Orders</a>
-            <a href="#">Account</a>
+            </Link>
+            <Link className=" hover:text-orange-600" to="/explore">
+              Explore
+            </Link>
+            <Link className=" hover:text-orange-600" to="/">
+              My Orders
+            </Link>
+            <Link className=" hover:text-orange-600" to="/">
+              Account
+            </Link>
           </nav>
 
           {/* Login Button */}

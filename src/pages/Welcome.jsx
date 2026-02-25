@@ -42,10 +42,11 @@ const Welcome = () => {
               </p>
 
               {/* Features */}
+
               <div className="space-y-5 mb-10">
                 <div className="flex items-center gap-4">
-                  <div className="bg-orange-100 p-3 rounded-lg">
-                    <Utensils size={18} className="text-primary" />
+                  <div className="bg-orange-300 p-3 rounded-lg">
+                    <Utensils size={18} className="text-orange-500" />
                   </div>
                   <span className="text-gray-700 font-medium">
                     Freshly Prepared
@@ -53,8 +54,8 @@ const Welcome = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="bg-orange-100 p-3 rounded-lg">
-                    <Store size={18} className="text-primary" />
+                  <div className="bg-orange-300 p-3 rounded-lg">
+                    <Store size={18} className="text-orange-500" />
                   </div>
                   <span className="text-gray-700 font-medium">
                     Support Local Business
@@ -62,8 +63,8 @@ const Welcome = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="bg-orange-100 p-3 rounded-lg">
-                    <Truck size={18} className="text-primary" />
+                  <div className="bg-orange-300 p-3 rounded-lg">
+                    <Truck size={18} className="text-orange-500" />
                   </div>
                   <span className="text-gray-700 font-medium">
                     Fast & Reliable Delivery
