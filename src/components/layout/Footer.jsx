@@ -7,7 +7,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Column 1 */}
           <div>
-            <h3 className="text-xl font-bold text-primary mb-4">
+            <h3
+              className="font-logo text-3xl text-orange-600"
+              style={{ fontFamily: "Island Moments" }}
+            >
               Chuks Kitchen
             </h3>
             <p className="text-sm text-gray-300">

@@ -7,6 +7,12 @@ const SignUp = () => {
   return (
     <div>
       <AuthLayout>
+        <h1
+          className="font-logo text-3xl text-orange-600 text-center"
+          style={{ fontFamily: "Island Moments" }}
+        >
+          Chuks Kitchen
+        </h1>
         <h2 className="text-2xl font-semibold mb-6 text-center">
           Create Your Account
         </h2>

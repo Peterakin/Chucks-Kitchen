@@ -7,7 +7,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <h1 className="text-primary font-bold text-xl">Chuks Kitchen</h1>
+          <h1
+            className="font-logo text-3xl text-orange-600"
+            style={{ fontFamily: "Island Moments" }}
+          >
+            Chuks Kitchen
+          </h1>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-20 text-gray-600">

@@ -20,7 +20,10 @@ const Welcome = () => {
           <div className="w-full lg:w-1/2 bg-gray-50 flex flex-col justify-between px-8 py-10">
             {/* Top Bar */}
             <div className="flex justify-between items-center">
-              <h1 className="text-primary text-xl font-semibold">
+              <h1
+                className="font-logo text-3xl text-orange-600"
+                style={{ fontFamily: "Island Moments" }}
+              >
                 Chuks Kitchen
               </h1>
 
