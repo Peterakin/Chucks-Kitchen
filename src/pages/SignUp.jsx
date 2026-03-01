@@ -2,6 +2,8 @@ import AuthLayout from "../components/auth/AuthLayout";
 import InputField from "../components/auth/InputField";
 import { Mail, Lock, Phone } from "lucide-react";
 import Footer from "../components/layout/Footer";
+import SignIn from "./SignIn";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -66,9 +68,9 @@ const SignUp = () => {
 
         <p className="mt-6 text-center text-sm">
           Already have an account?{" "}
-          <a href="/signin" className="text-blue-500 hover:underline">
+          <Link to="/signin" className="text-blue-500 hover:underline">
             Sign In
-          </a>
+          </Link>
         </p>
       </AuthLayout>
       <Footer />
