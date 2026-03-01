@@ -246,3 +246,5 @@ The project serves as:
 Developed as part of a frontend internship project.
 
 ---
+
+Live Demo Url: https://chuks-food.netlify.app/
